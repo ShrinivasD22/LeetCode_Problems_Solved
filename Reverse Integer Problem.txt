@@ -1,0 +1,16 @@
+class Solution {
+    public boolean isPalindrome(int x) {
+String str = String.valueOf(x);
+ String number=String.valueOf(x);
+
+// Step 2: Reverse the string
+String reversed = new StringBuilder(str).reverse().toString();
+
+if(str.equals(reversed)){
+    return true;
+}
+else{
+    return false;
+}
+    }
+}
